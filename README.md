@@ -1,0 +1,2 @@
+# VassProject
+Vass Foundation
