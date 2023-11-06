@@ -1,0 +1,105 @@
+
+@media (min-width: 1141px) {
+    html {
+        background-color: black;
+        
+    }
+    body {
+        width:1440px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1440px) {
+
+}
+
+
+
+@media (max-width: 1025px) {
+    .heading-section-wrapper > .login-wrapper > .log-link {
+        padding: 10px 10px 10px 10px;
+    }
+    .center-section-wrapper >  .center-left  {
+        padding: 0px 70px 20px 60px;
+    }
+    .center-section-wrapper >  .center-left > .center-left-top-text > p {
+        font-size: 1.5em;
+        letter-spacing: 1px ;
+    }
+    .center-section-wrapper >  .center-left > .center-left-middle-text > p {
+        font-size: 1.4em;
+        /* letter-spacing: 1px ; */
+        word-spacing: 2px;
+    }
+}
+
+@media (max-width: 769px) {
+    .center-section-wrapper >  .center-left > .center-left-top-text > p {
+        font-size: 1.1em;
+        letter-spacing: 1px ;
+    }
+    .center-section-wrapper >  .center-left > .center-left-middle-text > p {
+        font-size: 1.0em;
+        /* letter-spacing: 1px ; */
+        word-spacing: 2px;
+    }
+        .center-section-wrapper >  .center-left  {
+        padding: 0px 70px 20px 60px;
+    }
+}
+
+/* @media (min-width: 769px) and  (max-width: 1025px) {
+    .heading-section-wrapper > .login-wrapper > .log-link {
+        padding: 10px 10px 10px 10px;
+    }
+    .center-section-wrapper >  .center-left  {
+        padding: 0px 70px 20px 60px;
+    }
+    .center-section-wrapper >  .center-left > .center-left-top-text > p {
+        font-size: 1.5em;
+        letter-spacing: 1px ;
+    }
+    .center-section-wrapper >  .center-left > .center-left-middle-text > p {
+        font-size: 1.4em;
+        word-spacing: 2px;
+    }
+} 
+*/
+@media (max-width: 616px) {
+    .heading-section-wrapper {
+        display: flex;;
+        flex-direction: column;
+        height: 100%;
+    }
+    .heading-section-wrapper > .login-wrapper {
+        margin-left:10px;
+        margin-right: 10px;
+    }
+
+
+    .center-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .center-section-wrapper > .center-left {
+        padding: 0px 10px 0px 15px;
+    }
+    
+    .center-section-wrapper >  .center-left > .center-left-bottom-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .footer-section-navs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+}

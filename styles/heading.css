@@ -1,0 +1,61 @@
+.heading-section-wrapper{
+    display: grid;
+    grid-template-columns: 4fr 9fr 10fr;
+    /* grid-template-columns: 5fr 8fr 9fr; */
+    grid-gap:50px;
+    background-color: black;
+    /* font-size: 1.25em; */
+    padding: 10px 0px 10px 10px;
+}
+/* Inside heading-section-wrapper, but defined without parenthood */
+.logo img {
+    width: 85%;
+    height: 85%;
+}
+
+/* Inside heading-section-wrapper, but defined without parenthood */
+.nav-main-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-main-wrapper > .nav-title {
+    color: #dfdb1f;
+    font-weight: 800;
+}
+.nav-main-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: lerightft;
+    
+}
+.nav-link > a{
+    font-weight: 800;
+
+}
+
+.heading-section-wrapper > .login-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:75px;
+    margin-right: 10px;
+}
+
+.heading-section-wrapper > .login-wrapper > .log-link {
+    padding: 10px 30px 10px 30px;
+    background-color: #575151;
+    border-radius: 5px;
+}
+
+.heading-section-wrapper > .login-wrapper > .log-link > a > i {
+    color: rgba(36, 216, 36, 0.658);
+    /* font-weight: 200; */
+    font-size: 1.2em;
+}
+
+.heading-section-wrapper > .login-wrapper > .search > a > i {
+    color: grey;
+    font-size: 2em;
+}

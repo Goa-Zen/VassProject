@@ -1,0 +1,19 @@
+/* .footer-section-wrapper será el parent de footer-section-navs  */
+.footer-section-navs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center; */
+    background-color: #5b5c58;
+   
+}
+
+.footer-section-navs > .footer-nav{
+    padding: 20px 0px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.close-footer {
+    height: 100px;
+    background-color: black;
+}
