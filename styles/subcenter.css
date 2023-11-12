@@ -1,0 +1,119 @@
+/* All */
+.title-section {
+    padding: 10px 20px;
+    background-image: linear-gradient(to left, #090a0b, #1d1f20, #303332, #444745, #5b5c58);
+}
+
+/* Pens */
+.skewed-header {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    top: 10;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    /* 100vw looks at the view port, the window, and this means that it would take 100% of it  */
+}
+
+/* all subs */
+.subs-center-section {
+    background-color: black;
+}
+
+/* Pens */
+.pen-section-heading {
+    background-image: url(../images/backgrounds/codepenpens.jpg);
+    padding: 100px 10px;
+    height: 500px;
+    /* parallax feature */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pen-section-heading >.top-heading > h1{
+    color: #dfdb1f;
+}
+
+/* Posts */
+.post-explain {
+    padding: 20px 100px 20px 20px;
+}
+
+#code-textarea {
+    width: 85vw;
+}
+/* projectz */
+.project-wrapper {
+    padding: 20px 100px;
+}
+
+.project-wrapper > #imgproyect {
+    width: 450px;
+    margin:0px 40px 20px 30px;
+    /* this is the trick */
+    float: right;
+    border: 1px solid #cea135;
+}
+
+.project-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* COLLECTIONS */
+.collections-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.collections-section-container > .collections-items > .collection { 
+    padding: 10px 100px 20px;
+    margin: 20px 0px; 
+    background-color: aqua;
+    transition: all 0.3s;
+}
+
+.collections-section-container > .collections-items  > .collection-show {
+    padding: 100px;
+    margin: 10px; 
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.collections-section-container > .collections-items > .collection:hover {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border-bottom: 3px solid #cea135;
+}
+.collections-section-container > .collections-items > .collection:hover + .collection-show { 
+    background-color: rgb(29, 112, 112);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-3rem);
+}

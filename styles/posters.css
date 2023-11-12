@@ -1,0 +1,39 @@
+.posters-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.posters-wrapper > .posters {
+    /* width: 1000px; */
+}
+
+.posters-wrapper > .posters > .poster {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: -4px;
+    padding: 42px;
+}
+
+.poster > .poster-image img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover does what we already saw with parallax when we used 'cover' as well
+    It does fit the image to the size of the container; se reduce proporcionalmente y cubre todo
+    'they are cropped properly' is what he sais  */
+    object-fit: cover;
+    /* border: 1px solid #cea135; */
+    border-radius: 30px;
+}
+
+.poster > .poster-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.poster > .poster-text-wrapper h1 {
+    color: #dfdb1f;
+}

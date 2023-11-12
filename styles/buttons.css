@@ -1,0 +1,20 @@
+/* Buttons */
+.centered-btn-wrapper {
+    text-align: center;
+
+}
+.btn {
+    font-size: 1.25em;
+    background-color: #cea135;
+    color:#11122b;
+    padding: 10px 25px;
+    border: 1px solid #11122b;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
