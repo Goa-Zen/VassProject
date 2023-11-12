@@ -1,12 +1,4 @@
 /* contact -form */
-/* 
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 42px;
-    font-family: "Ubuntu",  sans-serif;
-} */
 
 .login-instruccions-wrapper {
     padding: 10px 20px 30px 20px;;
@@ -43,16 +35,10 @@
     border-bottom: 3px solid #cea135;
 }
 
-/* You may notice that here we did not select the textarea like have 
-normally gone through this, and that's because we don't want just the initial child elements 
-since we'd have to say .form > .form-group > textarea.
-But here in this situation we just want to have all of the text area tags inside any form. */
-
 .form input::-webkit-input-placeholder {
     color: #11122b;
 }
 
-/* gaia 55 */
 .form input:focus::-webkit-input-placeholder {
     /* visibility: hidden;
     opacity: 0; */
@@ -74,24 +60,3 @@ But here in this situation we just want to have all of the text area tags inside
     opacity: 0; */
 }
 
-/* gaia 54 */
-/* .form input:focus + label {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(1rem);
-    /* transfrom is going to move slowly showing the transition  */
-} */
-
-
-
-
-
-
-/* .form > .form-group input:focus {
-    font-size: 1.5rem;
-    border: none;
-    border-bottom: 5px solid #cea135;
-    /* border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px; 
-}  
-*/

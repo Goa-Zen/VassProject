@@ -188,6 +188,12 @@
      .posters-wrapper > .posters > .poster > .poster-img {
         order: 2;
      }   
+     .collections-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
      .form-section {
         width: 500px;
     }

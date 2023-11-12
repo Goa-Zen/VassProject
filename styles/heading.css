@@ -7,13 +7,12 @@
     /* font-size: 1.25em; */
     padding: 10px 0px 10px 10px;
 }
-/* Inside heading-section-wrapper, but defined without parenthood */
+
 .logo img {
     width: 100%;
     height: 100%;
 }
 
-/* Inside heading-section-wrapper, but defined without parenthood */
 .nav-main-wrapper {
     display: flex;
     justify-content: center;
@@ -66,12 +65,6 @@
     opacity: 1;
     visibility: visible;
 }
-
-
-
-
-
-
 
 /* login buttons */
 .heading-section-wrapper > .login-wrapper {
